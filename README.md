@@ -3,7 +3,7 @@ A storefront website designed for simple purchasing and delivery of swords, armo
 <img width="553" height="761" alt="image" src="https://github.com/user-attachments/assets/19c1f1c5-808b-4e85-887d-6dd3e77a0151" />
 
 #Features
--The site features customer reviews on the home page
+-The site features customer reviews on the home page<br>
 <img width="276" height="182" alt="image" src="https://github.com/user-attachments/assets/01a7959e-832f-4f29-a75e-2da1716ff28a" /><br>
 -A catalog the user can browse for their desired item(s), called "catalogue" for time appropriate language
 -A cart system that tracks what a user has in their cart, including local storage to remember the cart's contents
