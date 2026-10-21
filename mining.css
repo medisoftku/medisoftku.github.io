@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(106, 70, 35);
+  padding: 0;
+  margin: 0;
+  font-family: "MedievalSharp", cursive;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 448px;
+  height: 600px;
+  background-color: #2b1d0c;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  border: 4px solid #4a3118;
+  box-sizing: border-box;
+}
+/*All code beyond this point was written by AI, concept of game, art/sprites, and comments of course still by me*/
+#displayBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.readyBox {
+  pointer-events: auto;
+  position: absolute;
+  top: 25%;
+  left: 5.5%;
+  width: 400px;
+  height: 280px;
+  background-color: rgba(255, 241, 193, 0.95);
+  border: 3px solid #6a4623;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.start {
+  width: 180px;
+  height: 45px;
+  border-radius: 11px;
+  background-color: #2b6cb0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #1a4971;
+}
+
+.start:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #1a4971;
+}
+
+/*Grid row, tile layout */
+.grid-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 448px;
+  height: 112px;
+  display: flex;
+  will-change: transform;
+}
+
+.tile {
+  width: 112px;
+  height: 112px;
+  box-sizing: border-box;
+  border: 2px solid #1a1007;
+  cursor: pointer;
+  touch-action: none;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+/*Backup ore colors in case textures fail*/
+.metal-iron {
+  background-color: #708090;
+}
+
+.metal-gold {
+  background-color: #d4af37;
+}
+
+.metal-copper {
+  background-color: #b87333;
+}
+
+.metal-silver {
+  background-color: #a8a8a8;
+}
+
+.metal-stone {
+  background-color: #5a5a5a;
+}
+
+/* Visual Feedback */
+.tile.clicked {
+  opacity: 0.2;
+  transform: scale(0.85);
+  pointer-events: none;
+}
+
+.tile.wrong {
+  background-color: #e53e3e !important;
+}
+
+/* On-screen Score HUD */
+#hud-score {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 1.5rem;
+  color: #fff1c1;
+  text-shadow: 2px 2px 4px #000;
+  z-index: 5;
+  pointer-events: none;
+}

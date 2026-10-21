@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basket</title>
+    <meta name="viewport" content="width=448px, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/medisoftku/medisoftku.github.io/refs/heads/main/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script1.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="containerCart">
+      <!--Menu banner-->
+      <img src="https://i.pinimg.com/originals/83/e8/33/83e833427cf394ff2eba1e96e1813647.gif" width=100% height=100% style="opacity: 0.5" class="spark">
+      <img src="https://i.pinimg.com/originals/83/e8/33/83e833427cf394ff2eba1e96e1813647.gif" width=100% height=100% style="opacity: 0.5" class="spark">
+      <div class="box"></div>
+      <div class="title"><a href="index.html"><img src="https://github.com/medisoftku/medisoftku.github.io/blob/main/mediTitle.png?raw=true" width=300px></a></div>
+      <div class="cart"><a href="cart.html"><img src="https://raw.githubusercontent.com/medisoftku/medisoftku.github.io/refs/heads/main/basket.png" width=200px></a></div>
+      <div class="catalogue"><a href="catalogue.html"><img src="https://raw.githubusercontent.com/medisoftku/medisoftku.github.io/refs/heads/main/scroll.png" width=70px></a></div>
+      
+
+
+    </div>
+    <!--Page card-->
+    <center><div class="rect3"></div></center>
+    <div class="textcont1"><center>
+      <h1>Basket</h1>
+      <!--Reflects current status of order-->
+      <span id="orderStatus"></span>
+      <br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSueXwdWLRXnz_NBCb8s-BXdo-eEkSawbqbuZ_1aB8NVl9T8y4idHiZyekN&s=10" width="350" style="border: 5px solid yellow;">
+      <br><br>
+      <div class="checkTable">
+        <br>
+        <center><h1 style="color: black">Check Out</h1></center>
+        <!--Items and prices-->
+        <div class="cartMain">
+          <div style="text-align:left; margin-left: 10px;">
+            <p style="color:black">Swords of Wrought Iron ($60)..</p><br>
+            <p style="color:black">Sets of Steel Plate Armor ($100)</p><br>
+            <p style="color:black">Sets of Iron Chain Mail ($50).....</p><br>
+            <p style="color:black">Cooking Pots ($20).....................</p>
+          </div>
+          <!--Amount of each item-->
+          <div>
+            <p style="color: black" id="amounts"></p>
+            <br>
+          </div>
+        </div>
+        <div id="totals" style="text-align: left; margin-left: 10px; margin-top: 10px;"></div>
+        <div id="checkOptions" style="margin-top: 15px; text-align: center;"></div>
+        <div id="nadaOptions" style="margin-top: 15px; text-align: center;"></div>
+      </div>
+      <br>
+      <!--Reflects current status of order-->
+      <div class="trackTable">
+        <br>
+        <h2 style="color:black; margin-top: 0px;">Order Tracking</h2>
+        <br>
+        <span id="trackText"></span>
+      </div>
+      </center></div>
+      
+  </body>
+</html>
