@@ -11,5 +11,7 @@ A storefront website designed for simple purchasing and delivery of swords, armo
 -BONUS FEATURE: Checkout includes a delivery option with different dialogue and an added delivery fee<br>
 
 <h2>AI Usage</h2>
--There is no AI generated code in the website<br>
--AI did play a role in the teaching of JavaScript and providing helpful resources for learning how to implement specific functions needed in the JavaScript portion of the website
+-AI generated code is only featured in the making of the "Mining Game"<br>
+-AI Generated code was not used in any  other page of the website
+-All comments were still written by me
+-AI did play a role in the teaching of JavaScript and providing helpful resources for learning how to implement specific functions needed in the JavaScript portions of the website
