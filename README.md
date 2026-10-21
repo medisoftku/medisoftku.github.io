@@ -1,6 +1,7 @@
 <h1>Medisoft</h1>
 A storefront website designed for simple purchasing and delivery of swords, armor, chain mail, and cooking pots.<br>
-<img width="553" height="761" alt="image" src="https://github.com/user-attachments/assets/19c1f1c5-808b-4e85-887d-6dd3e77a0151" />
+<img width="553" height="761" alt="image" src="https://github.com/user-attachments/assets/19c1f1c5-808b-4e85-887d-6dd3e77a0151" /><br>
+Made by me, Braylon Burkett, with some AI contribution.<br>
 
 <h2>Features</h2>
 -The site features customer reviews on the home page<br>
@@ -12,6 +13,6 @@ A storefront website designed for simple purchasing and delivery of swords, armo
 
 <h2>AI Usage</h2>
 -AI generated code is only featured in the making of the "Mining Game"<br>
--AI Generated code was not used in any  other page of the website
--All comments were still written by me
+-AI Generated code was not used in any  other page of the website<br>
+-All comments were still written by me<br>
 -AI did play a role in the teaching of JavaScript and providing helpful resources for learning how to implement specific functions needed in the JavaScript portions of the website
